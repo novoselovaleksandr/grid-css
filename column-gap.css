@@ -1,0 +1,14 @@
+ /* column-gap
+Данное свойство используется для добавления отступа между колонками.
+
+Обратите внимание: свойство column-gap используется совместно со 
+свойством grid-template-columns.*/
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 100px 100px 100px 100px;
+
+  /* ! */
+  column-gap:  50px;
+}

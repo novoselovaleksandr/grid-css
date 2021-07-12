@@ -1,0 +1,20 @@
+/* 
+justify-items 
+
+Данное свойство используется для позиционирования грид-элементов внутри грид-контейнера 
+вдоль главной оси (x-axis). Оно принимает 4 возможных значения:
+start, end center, stretch
+*/
+
+.container {
+    display: grid;
+    gap: 50px;
+    height: 100vh;
+  
+    /* Каждый контейнер имеет размер 200px на 200px */
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px;
+  
+    /* ! */
+    justify-items : end;
+  }

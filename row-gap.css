@@ -1,0 +1,16 @@
+/*
+row-gap
+
+Данное свойство используется для добавления отступов между строками.
+
+Обратите внимание: свойство row-gap используется совместно со свойством 
+grid-template-rows.*/
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 100px 100px 100px 100px;
+
+  /* ! */
+  row-gap:  50px;
+}

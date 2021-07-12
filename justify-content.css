@@ -1,0 +1,19 @@
+/*
+justify-content
+
+Данное свойство используется для позиционирования самого грида внутри грид-контейнера 
+вдоль основной оси. Оно принимает 7 возможных значений:
+start, end ,center, stretch, space-between, space-around, space-evenly
+
+*/
+
+.container {
+    display: grid;
+    gap: 50px;
+    height: 100vh;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px;
+  
+    /* ! */
+    justify-content: end;
+  }

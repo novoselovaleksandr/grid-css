@@ -1,0 +1,17 @@
+/* 
+align-items
+
+Данное свойство используется для позиционирования грид-элементов внутри 
+грид-контейера вдоль поперечной оси.(y-axis) Оно принимает 4 возможных значения:
+start, end, center, stretch  */
+
+.container {
+    display: grid;
+    gap: 50px;
+    height: 100vh;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px;
+  
+    /* ! */
+    align-items: center;
+  }
